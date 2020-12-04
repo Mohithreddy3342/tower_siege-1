@@ -3,7 +3,8 @@ class Block{
       var options = {
          
           restitution :0.4,
-          friction :0.001,
+          friction :0.4,
+          //isStatic:true
          
       }
       this.body = Bodies.rectangle(x, y, width, height, options);
